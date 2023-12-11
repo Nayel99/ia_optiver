@@ -23,8 +23,4 @@ EXPOSE 80
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]
 
 # Build : docker build -t main .
-<<<<<<< HEAD:ia_optiver/DockerFile
 # Run : docker run -d -p 80:80 main
-=======
-# Run : docker run -d -p 8000:8000 main
->>>>>>> 66854fc2910676e67cf2ddc6e9bccc72ba1b47e1:ia_optiver/Dockerfile
